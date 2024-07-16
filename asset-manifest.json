@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/juandolmos/static/css/main.f855e6bc.css",
+    "main.js": "/juandolmos/static/js/main.edf81cd4.js",
+    "static/js/453.68c1bc00.chunk.js": "/juandolmos/static/js/453.68c1bc00.chunk.js",
+    "static/media/logo.svg": "/juandolmos/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/juandolmos/index.html",
+    "main.f855e6bc.css.map": "/juandolmos/static/css/main.f855e6bc.css.map",
+    "main.edf81cd4.js.map": "/juandolmos/static/js/main.edf81cd4.js.map",
+    "453.68c1bc00.chunk.js.map": "/juandolmos/static/js/453.68c1bc00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.edf81cd4.js"
+  ]
+}
