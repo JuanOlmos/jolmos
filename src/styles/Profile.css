@@ -1,0 +1,29 @@
+@import './constants.css';
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.job-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  color: var(--secondary-color);
+}
+
+.title{
+  color: var(--primary-color);
+}
+
+.link{
+  color: var(--clickable-text);
+  text-decoration: none;
+}
+
+.break-line{
+width: 70px; 
+border-color: var(--clickable-text);
+}
