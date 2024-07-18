@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/juandolmos/static/css/main.e13a0847.css",
-    "main.js": "/juandolmos/static/js/main.df035200.js",
-    "static/js/453.68c1bc00.chunk.js": "/juandolmos/static/js/453.68c1bc00.chunk.js",
-    "static/media/profile.png": "/juandolmos/static/media/profile.dca4e806dd37f6641a66.png",
-    "index.html": "/juandolmos/index.html",
-    "main.e13a0847.css.map": "/juandolmos/static/css/main.e13a0847.css.map",
-    "main.df035200.js.map": "/juandolmos/static/js/main.df035200.js.map",
-    "453.68c1bc00.chunk.js.map": "/juandolmos/static/js/453.68c1bc00.chunk.js.map"
+    "main.css": "/jolmos/static/css/main.e13a0847.css",
+    "main.js": "/jolmos/static/js/main.cd701423.js",
+    "static/js/453.b1acc1c3.chunk.js": "/jolmos/static/js/453.b1acc1c3.chunk.js",
+    "static/media/profile.png": "/jolmos/static/media/profile.dca4e806dd37f6641a66.png",
+    "index.html": "/jolmos/index.html",
+    "main.e13a0847.css.map": "/jolmos/static/css/main.e13a0847.css.map",
+    "main.cd701423.js.map": "/jolmos/static/js/main.cd701423.js.map",
+    "453.b1acc1c3.chunk.js.map": "/jolmos/static/js/453.b1acc1c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e13a0847.css",
-    "static/js/main.df035200.js"
+    "static/js/main.cd701423.js"
   ]
 }
