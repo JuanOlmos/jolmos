@@ -1,0 +1,22 @@
+@import "./constants.css";
+
+.list{
+    color: var(--primary-color);
+    padding-right: 20%;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+
+small {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    padding-left: 35px;
+}

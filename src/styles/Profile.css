@@ -1,4 +1,4 @@
-@import './constants.css';
+@import "./constants.css";
 .container {
   display: flex;
   flex-direction: column;
@@ -14,16 +14,17 @@
   color: var(--secondary-color);
 }
 
-.title{
+.title {
   color: var(--primary-color);
 }
 
-.link{
+.link {
   color: var(--clickable-text);
   text-decoration: none;
 }
 
-.break-line{
-width: 70px; 
-border-color: var(--clickable-text);
+.break-line {
+  width: 70px;
+  margin: 20px;
+  border-color: var(--clickable-text);
 }
