@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/jolmos/static/css/main.e13a0847.css",
-    "main.js": "/jolmos/static/js/main.d7b10460.js",
+    "main.js": "/jolmos/static/js/main.8de4fb2c.js",
     "static/js/453.b1acc1c3.chunk.js": "/jolmos/static/js/453.b1acc1c3.chunk.js",
     "static/media/profile.png": "/jolmos/static/media/profile.dca4e806dd37f6641a66.png",
     "index.html": "/jolmos/index.html",
     "main.e13a0847.css.map": "/jolmos/static/css/main.e13a0847.css.map",
-    "main.d7b10460.js.map": "/jolmos/static/js/main.d7b10460.js.map",
+    "main.8de4fb2c.js.map": "/jolmos/static/js/main.8de4fb2c.js.map",
     "453.b1acc1c3.chunk.js.map": "/jolmos/static/js/453.b1acc1c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e13a0847.css",
-    "static/js/main.d7b10460.js"
+    "static/js/main.8de4fb2c.js"
   ]
 }
