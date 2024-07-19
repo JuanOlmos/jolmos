@@ -3,8 +3,8 @@ export const CONTENT =
 
 export const NEWS = [
   {
-    date: "2021-01-01",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    date: "2024-07-18",
+    text: "New paper accepted!! ",
   },
   {
     date: "2021-02-01",
@@ -16,12 +16,14 @@ export const NEWS = [
   },
 ];
 
-export const INTERESTS = [{ main: "Mathematics" }, { main: "Programming" }];
+export const INTERESTS = [
+              { main: "Mathematics" },
+              { main: "Programming" }];
 
 export const EDUCATION = [
   {
     main: "PhD in Computer Science",
-    secondary: "Universidad Industrial de Santander",
+    secondary: "Universidad Industrial de Santander & Institut Polytechnique de Paris",
   },
   {
     main: "MSc. in Applied Mathematics",
