@@ -17,7 +17,7 @@ export const NEWS = [
 ];
 
 export const INTERESTS = [
-              { main: "Mathematics" },
+              { main: "Gesetz steht, entritt nich das más vaca que porta que pasaba enstehn así entejas doch" },
               { main: "Programming" }];
 
 export const EDUCATION = [
@@ -34,3 +34,20 @@ export const EDUCATION = [
     secondary: "Universidad Industrial de Santander",
   },
 ];
+
+export const PAPERS = [
+  {
+    title: "Paper 1",
+    authors: "Author 1, Author 2",
+    publisher: "Journal 1",
+    date: "2021",
+    pdf: "xxx",
+    code: "xxx",
+    cite: "xxx",
+    image: "nameImage.png",
+    type: "",
+  },
+]
+
+
+const Types =["Journal Article", "Conference Paper"];
