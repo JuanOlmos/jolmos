@@ -5,9 +5,11 @@ import "../styles/Main.css";
 
 export const Main = () => {
   return (
-    <div className="main-container">
-      <Profile />
-      <Content />
-    </div>
+    <>
+      <div className="main-container">
+        <Profile />
+        <Content />
+      </div>
+    </>
   );
 };

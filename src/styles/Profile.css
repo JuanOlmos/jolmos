@@ -28,3 +28,8 @@
   margin: 20px;
   border-color: var(--clickable-text);
 }
+
+.profile-pic {
+  height: 40vmin;
+  pointer-events: none;
+}

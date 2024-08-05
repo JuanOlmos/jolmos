@@ -1,29 +1,32 @@
 @import "./constants.css";
 
-.content{
-    margin-right: 10px;
-    margin-left: 9%;
-    color: var(--primary-color);
+.content {
+  margin-right: 10px;
+  margin-left: 9%;
+  color: var(--primary-color);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 p {
-    font-size: 24px;
-    font-weight: 500;
-    text-align: justify;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: justify;
 }
 
 h2 {
-    font-size: 28px;
-    font-weight: 650;
+  font-size: 28px;
+  font-weight: 650;
 }
 
 .lists {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
 }
 
 hr {
-    margin: 40px 0px;
+  margin: 40px 0px;
 }

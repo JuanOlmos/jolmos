@@ -17,13 +17,17 @@ export const NEWS = [
 ];
 
 export const INTERESTS = [
-              { main: "Gesetz steht, entritt nich das más vaca que porta que pasaba enstehn así entejas doch" },
-              { main: "Programming" }];
+  {
+    main: "Gesetz steht, entritt nich das más vaca que porta que pasaba enstehn así entejas doch",
+  },
+  { main: "Programming" },
+];
 
 export const EDUCATION = [
   {
     main: "PhD in Computer Science",
-    secondary: "Universidad Industrial de Santander & Institut Polytechnique de Paris",
+    secondary:
+      "Universidad Industrial de Santander & Institut Polytechnique de Paris",
   },
   {
     main: "MSc. in Applied Mathematics",
@@ -47,7 +51,6 @@ export const PAPERS = [
     image: "nameImage.png",
     type: "",
   },
-]
+];
 
-
-const Types =["Journal Article", "Conference Paper"];
+const Types = ["Journal Article", "Conference Paper"];

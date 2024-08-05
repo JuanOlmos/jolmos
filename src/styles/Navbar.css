@@ -1,0 +1,31 @@
+@import "./constants.css";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 20px 50px 20px 50px;
+  color: var(--primary-color);
+  box-sizing: border-box;
+  background: #282a36;
+  box-shadow: 0 0.125rem 0.25rem rgba(255, 255, 255, 0.11);
+}
+
+.navbar-title a {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 16px;
+  font-size: 18px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}

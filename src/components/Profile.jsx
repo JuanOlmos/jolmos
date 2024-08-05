@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../profile.png";
+import profilePic from "../profile.png";
 import "../styles/Profile.css";
 import Icons from "./Icons";
 
@@ -7,7 +7,7 @@ const Profile = () => {
   return (
     <>
       <div className="container">
-        <img src={logo} className="App-logo" alt="" />
+        <img src={profilePic} className="profile-pic" alt="" />
         <h1 className="title">Juan Olmos</h1>
         <h3 className="job-title">PhD Student</h3>
         <a
