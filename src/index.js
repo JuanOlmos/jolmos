@@ -8,7 +8,7 @@ import Publications from "./components/Publications";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "*",
     element: <Main />,
   },
   {
