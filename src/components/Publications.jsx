@@ -1,25 +1,44 @@
 import React from "react";
-
 import useSWR from "swr";
+import Publication from "./Publication";
+import styles from "../styles/Publications.module.scss";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 const Publications = () => {
-  const { data: countries } = useSWR(
-    "http://universities.hipolabs.com/search?country=United+States",
+  const { data: publications } = useSWR(
+    "https://api.zotero.org/groups/5619391/items?format=json&include=bibtex,data",
     fetcher
   );
 
-  const countriesFiltered = countries && countries.slice(0, 5);
+  const filteredPublications = publications?.filter(
+    (publication) => publication.data.itemType !== "attachment"
+  );
+
+  const attachments = publications?.filter(
+    (publication) => publication.data.itemType === "attachment"
+  );
+
+  filteredPublications &&
+    filteredPublications.forEach((publication) => {
+      const attachment = attachments.find(
+        (attachment) => attachment.data.parentItem === publication.data.key
+      );
+      if (attachment) {
+        publication.data.attachment = attachment.data.url;
+      }
+    });
+
+  console.log(filteredPublications);
   return (
-    <div className="pub-container">
-      <h2>Publications</h2>
-      <p>
-        I have published several articles on the topic of software engineering.
-      </p>
-      {countriesFiltered &&
-        countriesFiltered.map((country, index) => (
-          <p key={index}>{country.name}</p>
+    <div className={styles.container}>
+      <h2 className={styles.title}>Publications</h2>
+      {filteredPublications &&
+        filteredPublications.map((publication, indx) => (
+          <>
+            <Publication key={"pub-" + indx} publication={publication} />
+            {indx < filteredPublications.length - 1 && <hr key={"hr" + indx} />}
+          </>
         ))}
     </div>
   );

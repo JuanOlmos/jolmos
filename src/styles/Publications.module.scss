@@ -1,0 +1,11 @@
+@use './constants.module.scss' as c; 
+
+.container {
+  color: c.$primaryColor;
+  padding: 40px; 
+
+  .title {
+    margin-top: 0;
+    font-size: 36px;
+  }
+}

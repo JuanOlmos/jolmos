@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-title">
-        <a href="/"> Juan Olmos</a>
+        <Link to="/">Juan Olmos</Link>
       </div>
       <div className="navbar-links">
         <Link to="/">Home</Link>

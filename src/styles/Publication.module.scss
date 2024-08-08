@@ -1,0 +1,49 @@
+@use './constants.module.scss' as c;
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.attachment {   
+    border-radius: 20px;
+    max-width: 35%;
+    max-height: 100%;
+}
+
+.publication {
+
+    color: c.$primaryColor;
+
+    .title {
+    font-size: 20px;
+        font-weight: bold;
+    }
+
+    .authors {
+        font-size: 16px;
+    }
+
+    .date {
+        font-size: 16px;
+    }
+
+    .place {
+        font-size: 16px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: flex-start;
+        gap: 16px;
+        align-items: center;
+    }
+
+    span{
+        padding: 0 15px;
+    }
+}
