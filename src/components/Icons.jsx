@@ -8,8 +8,7 @@ import {
 
 import { CiMail } from "react-icons/ci";
 import ButtonIcon from "./ButtonIcon";
-import "../styles/Icons.css";
-import "../styles/constants.css";
+import "../styles/Icons.scss";
 
 const Icons = () => {
   let icons = [

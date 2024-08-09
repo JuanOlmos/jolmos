@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/DateList.css";
+import "../styles/DateList.scss";
 
 const DateList = ({ list }) => {
   return (

@@ -1,7 +1,7 @@
-@import "./constants.css";
+@use "./constants.module.scss" as c; 
 
 .list {
-  color: var(--primary-color);
+  color: c.$primaryColor;
   padding-right: 10%;
   max-width: 40%;
 }
@@ -9,7 +9,7 @@
 li {
   font-size: 20px;
   font-weight: 500;
-  color: var(--primary-color);
+  color: c.$primaryColor;
   text-align: justify;
   margin-bottom: 15px;
 }
@@ -17,7 +17,7 @@ li {
 small {
   font-size: 16px;
   font-weight: 400;
-  color: var(--secondary-color);
+  color: c.$secondaryColor;
   padding-left: 35px;
   box-decoration-break: clone;
 }

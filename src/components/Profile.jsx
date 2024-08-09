@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic from "../profile.png";
-import "../styles/Profile.css";
+import "../styles/Profile.scss";
 import Icons from "./Icons";
 
 const Profile = () => {
