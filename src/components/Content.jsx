@@ -1,6 +1,6 @@
 import React from "react";
 import ListComponent from "./ListComponent";
-import "../styles/Content.css";
+import "../styles/Content.scss";
 import { RiGraduationCapFill } from "react-icons/ri";
 import DateList from "./DateList";
 import { CONTENT, EDUCATION, INTERESTS, NEWS } from "../utils/Constants";

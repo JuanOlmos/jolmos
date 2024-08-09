@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "../styles/ListComponent.css";
+import "../styles/ListComponent.scss";
 
 const ListComponent = ({ title, list, icon }) => {
   return (

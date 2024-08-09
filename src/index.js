@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
+import "./index.scss";
 import { createHashRouter, Outlet, RouterProvider } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Publications from "./components/Publications";

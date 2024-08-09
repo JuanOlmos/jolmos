@@ -1,9 +1,9 @@
-@import "./constants.css";
+@use "./constants.module.scss" as c; 
 
 .content {
   margin-right: 10px;
   margin-left: 9%;
-  color: var(--primary-color);
+  color: c.$primaryColor;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
