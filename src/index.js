@@ -19,6 +19,10 @@ const router = createHashRouter([
         path: "/publications",
         element: <Publications />,
       },
+      {
+        path: "/cv",
+        element: <p>CV eventually</p>,
+      },
     ],
   },
 ]);

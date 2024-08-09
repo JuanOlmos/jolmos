@@ -23,8 +23,18 @@ export function parseBibTeX(inputString) {
 }
 
 export function formatDate(dateString) {
-  const date = new Date(dateString);
+  const [year, month] = dateString.split("-").map(Number);
+  const date = new Date(Date.UTC(year, month - 1, 1, 12));
   const options = { year: "numeric", month: "long" };
   const formattedDate = new Intl.DateTimeFormat("en-US", options).format(date);
   return formattedDate.replace(/ (\d{4})$/, ", $1");
+}
+
+export function formatStringToCamelCase(input) {
+  const formatted = input.replace(/([a-z])([A-Z])/g, "$1 $2");
+
+  return formatted
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }

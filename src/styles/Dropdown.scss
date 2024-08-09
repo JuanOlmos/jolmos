@@ -1,0 +1,64 @@
+@use "./constants.module.scss" as c;
+$dropdown-border-color: c.$primaryColor;
+$dropdown-selected-color: #007bff;
+$dropdown-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+.dropdown {
+  position: relative;
+  width: 200px;
+  
+  &-header {
+    border-radius: c.$borderRadius;
+    padding: 10px;
+    border: 1px solid $dropdown-border-color;
+    background-color: c.$backgroundColor;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1px;
+    &:hover {
+      background-color: c.$hoverBackgroundcolor;
+    }
+  }
+
+  &-icon {
+    margin-left: 10px;
+    color: c.$primaryColor;
+    transition: transform 0.3s ease;
+
+    &.open {
+      transform: rotate(180deg);
+    }
+  }
+
+  &-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    width: 99%;
+    background-color: c.$backgroundColor;
+    border: 0.5px solid $dropdown-border-color;
+    box-shadow: $dropdown-shadow;
+    z-index: 1000;
+    border-radius: c.$borderRadius;
+  }
+
+  &-list-item {
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    font-size: 16px;
+
+    &:hover {
+      background-color: c.$hoverBackgroundcolor;
+      border-radius: c.$borderRadius;
+    }
+
+    &.selected {
+      background-color: $dropdown-selected-color;
+      color: #fff;
+    }
+  }
+}
