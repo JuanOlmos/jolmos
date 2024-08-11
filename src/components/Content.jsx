@@ -2,8 +2,7 @@ import React from "react";
 import ListComponent from "./ListComponent";
 import "../styles/Content.scss";
 import { RiGraduationCapFill } from "react-icons/ri";
-import DateList from "./DateList";
-import { CONTENT, EDUCATION, INTERESTS, NEWS } from "../utils/Constants";
+import { CONTENT, EDUCATION, INTERESTS } from "../utils/Constants";
 
 const Content = () => {
   return (
@@ -18,9 +17,6 @@ const Content = () => {
 
         <ListComponent title="Interests" list={INTERESTS} />
       </div>
-      <hr />
-      <h2>News</h2>
-      <DateList list={NEWS} />
     </div>
   );
 };

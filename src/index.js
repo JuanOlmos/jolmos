@@ -6,6 +6,12 @@ import Navbar from "./components/Navbar";
 import Publications from "./components/Publications";
 import App from "./App";
 
+const ExternalPage = () => {
+  window.location.href =
+    "https://jo-c-docs-bucket.s3.us-east-2.amazonaws.com/2024_CV_eng.pdf";
+  return null;
+};
+
 const router = createHashRouter([
   {
     path: "/",
@@ -21,7 +27,7 @@ const router = createHashRouter([
       },
       {
         path: "/cv",
-        element: <p>CV eventually</p>,
+        element: <ExternalPage />,
       },
     ],
   },
